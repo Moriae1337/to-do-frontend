@@ -37,7 +37,7 @@ Frontend is deployed at: [https://to-do-frontend-2vyd.onrender.com](https://to-d
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/to-do-frontend.git
+git clone https://github.com/Moriae1337/to-do-frontend.git
 cd to-do-frontend
 ```
 
@@ -52,7 +52,7 @@ Environment Variables
 Create a .env.local file at the root of the project with the following variable:
 
 ```bash
-NEXT_PUBLIC_BASE_URL=https://to-do-backend-zva2.onrender.com
+NEXT_PUBLIC_BASE_URL=http://localhost:8000
 ```
 
 This should point to your deployed backend URL.
@@ -65,4 +65,6 @@ To start the development server:
 npm run dev
 ```
 
-Visit http://localhost:3000
+**Visit** http://localhost:3000
+
+**Deployed Frontend**: [https://to-do-backend-zva2.onrender.com](https://to-do-frontend-2vyd.onrender.com)
